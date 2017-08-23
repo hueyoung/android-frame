@@ -1,5 +1,5 @@
 group = 'com.taobao.android.atlasdemo'
-version = getEnvValue("versionName", "1.0.0");
+version = getEnvValue("versionName", "1.0.2");
 def apVersion = getEnvValue("apVersion", "");
 
 apply plugin: 'com.android.application'
@@ -83,6 +83,7 @@ dependencies {
     compile 'com.taobao.android:atlasupdate:1.1.4.10@aar'
     compile 'com.alibaba:fastjson:1.1.45.android@jar'
     bundleCompile project(':firstbundle') // 组件so文件
+    bundleCompile project(':remotebundle') // 远程组件so文件
     compile project(':splashbundle') // 打进主dex文件
 }
 

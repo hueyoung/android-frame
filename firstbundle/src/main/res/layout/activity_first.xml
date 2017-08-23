@@ -11,8 +11,9 @@
     tools:context="com.ytl.frame.firstbundle.FirstActivity">
 
     <TextView
+        android:onClick="loadRemoteBundle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="i am fist act this is patch"/>
+        android:text="你好，我是第一个bundle，点我！"/>
 
 </RelativeLayout>
