@@ -30,6 +30,9 @@ android {
         }
 
         release {
+            ndk {
+                abiFilters "x86","armeabi"
+            }
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -74,7 +77,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
     compile('com.taobao.android:atlas_core:5.0.7.30@aar') {
-
         transitive = true
     }
     compile 'com.android.support:design:25.1.0'

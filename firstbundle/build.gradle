@@ -6,6 +6,9 @@ atlas {
     }
 }
 
+group = 'com.atlas.frame'
+version = '1.0.1'
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
