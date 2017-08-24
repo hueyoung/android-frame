@@ -79,6 +79,7 @@ dependencies {
     compile('com.taobao.android:atlas_core:5.0.7.30@aar') {
         transitive = true
     }
+
     compile 'com.android.support:design:25.1.0'
     compile 'com.taobao.android:atlasupdate:1.1.4.10@aar'
     compile 'com.alibaba:fastjson:1.1.45.android@jar'
