@@ -1,5 +1,5 @@
 group = 'com.taobao.android.atlasdemo'
-version = getEnvValue("versionName", "1.0.2");
+version = getEnvValue("versionName", "1.0.3");
 def apVersion = getEnvValue("apVersion", "");
 
 apply plugin: 'com.android.application'
@@ -80,11 +80,13 @@ dependencies {
         transitive = true
     }
 
-    compile 'com.android.support:design:25.1.0'
+
     compile 'com.taobao.android:atlasupdate:1.1.4.10@aar'
     compile 'com.alibaba:fastjson:1.1.45.android@jar'
+    compile 'com.android.support:design:25.1.0'
     bundleCompile project(':firstbundle') // 组件so文件
     bundleCompile project(':remotebundle') // 远程组件so文件
+    //bundleCompile project(':publicbundle') // 公共bundle不能删因为添加了依赖
     compile project(':splashbundle') // 打进主dex文件
 }
 

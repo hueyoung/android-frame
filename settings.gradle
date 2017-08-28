@@ -1,1 +1,1 @@
-include ':app', ':splashbundle', ':firstbundle', ':remotebundle'
+include ':app', ':splashbundle', ':firstbundle', ':remotebundle', ':publicbundle'

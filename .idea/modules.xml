@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/android-frame.iml" filepath="$PROJECT_DIR$/android-frame.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/firstbundle/firstbundle.iml" filepath="$PROJECT_DIR$/firstbundle/firstbundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/publicbundle/publicbundle.iml" filepath="$PROJECT_DIR$/publicbundle/publicbundle.iml" />
       <module fileurl="file://$PROJECT_DIR$/remotebundle/remotebundle.iml" filepath="$PROJECT_DIR$/remotebundle/remotebundle.iml" />
       <module fileurl="file://$PROJECT_DIR$/splashbundle/splashbundle.iml" filepath="$PROJECT_DIR$/splashbundle/splashbundle.iml" />
     </modules>
